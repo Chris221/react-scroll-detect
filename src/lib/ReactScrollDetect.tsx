@@ -4,7 +4,11 @@ export interface ReactScrollDetectProps {
     onChange?: (index: number) => void
     index?: number
     offset?: number
-    triggerPoint?: TriggerPoint
+    triggerPoint?: TriggerPoint,
+    children?: React.ReactNode,
+}
+export interface ScrollProps {
+    children?: React.ReactNode,
 }
 
 
@@ -39,7 +43,7 @@ const ReactScrollDetect: FC<ReactScrollDetectProps> = (props) => {
 const WINDOW_HEIGHT = window.innerHeight;
 
 
-const _ScrollContainer: FC = (props) => {
+const _ScrollContainer: FC<ScrollProps> = (props) => {
     const { sections, onChange, index, triggerPoint, offset = 0 } = useContext(ReactScrollDetectContext);
     const [sectionEntryPoints, setSectionEntryPoints] = useState<number[]>([])
     const [currentIndex, setCurrentIndex] = useState(0);

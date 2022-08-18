@@ -2,24 +2,25 @@
 
 Object.defineProperty(exports, '__esModule', { value: true });
 
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
 var React = require('react');
-var React__default = _interopDefault(React);
 
-/*! *****************************************************************************
-Copyright (c) Microsoft Corporation. All rights reserved.
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use
-this file except in compliance with the License. You may obtain a copy of the
-License at http://www.apache.org/licenses/LICENSE-2.0
+function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
-THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
-WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
-MERCHANTABLITY OR NON-INFRINGEMENT.
+var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
 
-See the Apache Version 2.0 License for specific language governing permissions
-and limitations under the License.
+/******************************************************************************
+Copyright (c) Microsoft Corporation.
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
 ***************************************************************************** */
 
 var __assign = function() {
@@ -33,6 +34,7 @@ var __assign = function() {
     return __assign.apply(this, arguments);
 };
 
+/** @deprecated */
 function __spreadArrays() {
     for (var s = 0, i = 0, il = arguments.length; i < il; i++) s += arguments[i].length;
     for (var r = Array(s), k = 0, i = 0; i < il; i++)
@@ -65,8 +67,8 @@ var ReactScrollDetect = function (props) {
         triggerPoint: triggerPoint,
         offset: offset
     };
-    return (React__default.createElement(ReactScrollDetectContext.Provider, { value: providerValue },
-        React__default.createElement(_ScrollContainer, null, props.children)));
+    return (React__default["default"].createElement(ReactScrollDetectContext.Provider, { value: providerValue },
+        React__default["default"].createElement(_ScrollContainer, null, props.children)));
 };
 var WINDOW_HEIGHT = window.innerHeight;
 var _ScrollContainer = function (props) {
@@ -112,7 +114,7 @@ var _ScrollContainer = function (props) {
             onChange(newIndex);
         }
     };
-    return (React__default.createElement("div", { onWheel: onWheel }, props.children));
+    return (React__default["default"].createElement("div", { onWheel: onWheel }, props.children));
 };
 
 var DetectSection = function (props) {
@@ -124,9 +126,9 @@ var DetectSection = function (props) {
         var height = ref.current.clientHeight || 0;
         addSection({ height: height, ref: ref.current });
     }, [ref]);
-    return (React__default.createElement("div", { ref: ref }, props.children));
+    return (React__default["default"].createElement("div", { ref: ref }, props.children));
 };
 
 exports.DetectSection = DetectSection;
-exports.default = ReactScrollDetect;
+exports["default"] = ReactScrollDetect;
 //# sourceMappingURL=index.js.map

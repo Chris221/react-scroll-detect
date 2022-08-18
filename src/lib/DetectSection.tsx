@@ -1,9 +1,10 @@
-import React, { useRef, useContext, useEffect } from "react";
+import React, { FC, useRef, useContext, useEffect } from "react";
 import { ReactScrollDetectContext } from "./context";
+import { ScrollProps } from "./ReactScrollDetect";
 
 
 
-export const DetectSection: React.FC = (props) => {
+export const DetectSection: FC<ScrollProps> = (props) => {
     const ref = useRef<HTMLDivElement>(null)
 
     const { addSection } = useContext(ReactScrollDetectContext);

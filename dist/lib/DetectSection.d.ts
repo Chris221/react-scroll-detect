@@ -1,2 +1,3 @@
-import React from "react";
-export declare const DetectSection: React.FC;
+import { FC } from "react";
+import { ScrollProps } from "./ReactScrollDetect";
+export declare const DetectSection: FC<ScrollProps>;
