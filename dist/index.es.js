@@ -41,7 +41,7 @@ var ReactScrollDetectContext = createContext({
     sections: [],
     index: 0,
     triggerPoint: 'center',
-    offset: 0
+    offset: 0,
 });
 
 var ReactScrollDetect = function (props) {
@@ -57,7 +57,7 @@ var ReactScrollDetect = function (props) {
         sections: sections,
         index: index,
         triggerPoint: triggerPoint,
-        offset: offset
+        offset: offset,
     };
     return (React.createElement(ReactScrollDetectContext.Provider, { value: providerValue },
         React.createElement(_ScrollContainer, null, props.children)));
@@ -82,7 +82,6 @@ var _ScrollContainer = function (props) {
         var _sectionEntryPoints = [];
         if (sections.length === 0)
             return;
-        // console.log("first section height", sections[0].ref.offsetTop, sections[0].ref)
         var prev = sections[0].ref.offsetTop;
         sections.forEach(function (section) {
             _sectionEntryPoints.push(prev);
@@ -93,8 +92,9 @@ var _ScrollContainer = function (props) {
     var findIndex = function (posTop) {
         var _index = 0;
         sectionEntryPoints.forEach(function (p, i) {
-            if (posTop > p && posTop < (sectionEntryPoints[i + 1] || 99999))
+            if (posTop > p && posTop < (sectionEntryPoints[i + 1] || 99999)) {
                 _index = i;
+            }
         });
         return _index;
     };
