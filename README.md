@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/npm/v/@chris221/react-scroll-detect)
+[![Version](https://img.shields.io/npm/v/@chris221/react-scroll-detect)](https://ci.appveyor.com/project/Chris221/react-scroll-detect)
 [![Build status](https://ci.appveyor.com/api/projects/status/7nuk7aqsi6nq7c5l?svg=true)](https://ci.appveyor.com/project/Chris221/react-scroll-detect)
 [![Bundle size](https://img.shields.io/bundlephobia/minzip/@chris221/react-scroll-detect)](https://bundlephobia.com/package/@chris221/react-scroll-detect)
 ![License](https://img.shields.io/npm/l/@chris221/react-scroll-detect)
@@ -8,6 +8,14 @@
 A set of utility components to watch scroll changes.
 
 [Codesandbox demo](https://codesandbox.io/s/inspiring-goldwasser-5k13y?fontsize=14&hidenavigation=1&theme=dark)
+
+## Install
+
+`npm install --save @chris221/react-scroll-detect`
+
+or
+
+`yarn add @chris221/react-scroll-detect`
 
 ### Fork
 
