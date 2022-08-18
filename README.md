@@ -1,12 +1,6 @@
-# Fork
-
-Forked from [g30elipse/react-scroll-detect](https://github.com/g30elipse/react-scroll-detect)
-
-
 ![Version](https://img.shields.io/npm/v/@chris221/react-scroll-detect)
-[![Build](https://img.shields.io/appveyor/build/g30elipse/react-scroll-detect)](https://ci.appveyor.com/project/g30elipse/react-scroll-detect)
-[![Dependencies](https://img.shields.io/david/g30elipse/react-scroll-detect)](https://david-dm.org/g30elipse/react-scroll-detect)
-[![Bundle size](https://img.shields.io/bundlephobia/minzip/react-scroll-detect)](https://bundlephobia.com/result?p=react-scroll-detect@1.1.2)
+[![Build status](https://ci.appveyor.com/api/projects/status/7nuk7aqsi6nq7c5l?svg=true)](https://ci.appveyor.com/project/Chris221/react-scroll-detect)
+[![Bundle size](https://img.shields.io/bundlephobia/minzip/@chris221/react-scroll-detect)](https://bundlephobia.com/package/@chris221/react-scroll-detect)
 ![License](https://img.shields.io/npm/l/@chris221/react-scroll-detect)
 
 
@@ -14,6 +8,10 @@ Forked from [g30elipse/react-scroll-detect](https://github.com/g30elipse/react-s
 A set of utility components to watch scroll changes.
 
 [Codesandbox demo](https://codesandbox.io/s/inspiring-goldwasser-5k13y?fontsize=14&hidenavigation=1&theme=dark)
+
+### Fork
+
+Forked from [g30elipse/react-scroll-detect](https://github.com/g30elipse/react-scroll-detect)
 
 ### Components
 
