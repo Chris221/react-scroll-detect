@@ -1,5 +1,5 @@
 {
-  "name": "react-scroll-detect-2",
+  "name": "@chris221/react-scroll-detect",
   "version": "1.0.0",
   "description": "Scroll detect component",
   "main": "dist/index.js",

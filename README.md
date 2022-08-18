@@ -3,11 +3,11 @@
 Forked from [g30elipse/react-scroll-detect](https://github.com/g30elipse/react-scroll-detect)
 
 
-![Version](https://img.shields.io/npm/v/react-scroll-detect-2)
+![Version](https://img.shields.io/npm/v/@chris221/react-scroll-detect)
 [![Build](https://img.shields.io/appveyor/build/g30elipse/react-scroll-detect)](https://ci.appveyor.com/project/g30elipse/react-scroll-detect)
 [![Dependencies](https://img.shields.io/david/g30elipse/react-scroll-detect)](https://david-dm.org/g30elipse/react-scroll-detect)
 [![Bundle size](https://img.shields.io/bundlephobia/minzip/react-scroll-detect)](https://bundlephobia.com/result?p=react-scroll-detect@1.1.2)
-![License](https://img.shields.io/npm/l/react-scroll-detect-2)
+![License](https://img.shields.io/npm/l/@chris221/react-scroll-detect)
 
 
 # react-scroll-detect
